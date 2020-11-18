@@ -10,9 +10,9 @@ public class Main {
 
     static final String url = "jdbc:mysql://db:3306/";
     static final String db_name = "database";
-    static final String userPass = "?user=sd&password=123456";
-    static final String userName = "sd";
-    static final String password = "123456";
+    static final String userPass = "?user=nj&password=zaq12wsx";
+    static final String userName = "nj";
+    static final String password = "zaq12wsx";
 
     /**
      * @throws java.sql.SQLException
@@ -23,7 +23,7 @@ public class Main {
 
     public static void main(String[] args) throws SQLException, InterruptedException {
 
-        System.out.println("Poczekaj 10 sekund, bazka się ładuje.");
+        System.out.println("Ładowanie bazy. Proszę czekać...");
 
         int selection;
         String nazwa_tabeli = "people";
